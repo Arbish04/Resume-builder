@@ -1,7 +1,58 @@
+/* Mobile-specific styles */
 @media (max-width: 768px) {
-    /* Mobile screen styles yahan add karen */
-  }
-  
+    /* Adjust container layout */
+    .resume-container {
+        flex-direction: column;  /* Stacks left and right sections vertically */
+        width: 90%;  /* Make the container take up 90% of the screen width */
+        margin: 0 auto;
+    }
+
+    /* Left section styling for mobile */
+    .left-section {
+        width: 100%;  /* Make the left section take up full width */
+        text-align: center;
+        border-right: none;  /* Remove border on mobile */
+        margin-bottom: 20px;
+    }
+
+    /* Profile picture adjustments */
+    .profile-picture {
+        width: 120px;  /* Smaller profile picture */
+        height: 120px;
+        margin-top: 20px;
+    }
+
+    /* Right section styling for mobile */
+    .right-section {
+        width: 100%;  /* Make right section take full width */
+    }
+
+    /* Adjust header font size for mobile */
+    h1 {
+        font-size: 20px;  /* Smaller heading for smaller screens */
+    }
+
+    h3 {
+        font-size: 16px;  /* Smaller subheading */
+        padding: 1%;
+    }
+
+    /* Button styling adjustments */
+    button {
+        font-size: 16px;  /* Smaller font size for buttons */
+        padding: 10px;
+    }
+
+    /* Ensure proper spacing around lists */
+    ul {
+        padding-left: 20px;  /* Added some left padding to the list for better alignment */
+    }
+
+    ul li {
+        margin-left: 10px;  /* Adjusted left margin for list items */
+    }
+}
+
 /* General Styling */
 body {
     font-family: 'Arial', sans-serif;
@@ -84,4 +135,5 @@ button {
 button:hover {
     background-color: #ff737c;
 }
+
 
